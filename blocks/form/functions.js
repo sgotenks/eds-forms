@@ -45,7 +45,7 @@ function days(endDate, startDate) {
 
 /**
  * Concatenates first and last name with proper formatting
- * @name getFullName
+ * @name myGetFullName
  * @description Combines first and last name, handles edge cases like missing values
  * @param {string} firstName - The person's first name
  * @param {string} lastName - The person's last name
@@ -61,7 +61,7 @@ function myGetFullName(firstName, lastName) {
 
 /**
  * Calculates the number of days between two dates
- * @name days
+ * @name myDays
  * @description Computes absolute difference in days, handles various date input formats
  * @param {Date|string} endDate - End date (Date object or ISO string)
  * @param {Date|string} startDate - Start date (Date object or ISO string)
